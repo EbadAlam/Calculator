@@ -61,3 +61,12 @@ button:hover{
 .btn-clear:hover{
 	background:blue;
 }
+#alert{
+	background: red;
+	color:white;
+	margin-bottom:20px;
+	padding:7px;
+	box-sizing: border-box;
+	border:none;
+	border-radius:20px;
+}
