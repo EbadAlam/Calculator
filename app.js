@@ -4,7 +4,6 @@
     const clearBtn = document.querySelector(".btn-clear");
     const equalBtn = document.querySelector(".btn-equal");
     const removeBtn = document.querySelector('.btn-remove');
-    const alert = document.querySelector('#alert');
     // console.log(removeBtn);
 
     if (btnAll.length > 0) {
@@ -40,13 +39,7 @@
         }
     });
     removeBtn.onclick = () => {
-    	if(screenInput.value == ""){
-        	alert.style.display = "block";
-        	setTimeout(function(){alert.style.display = "none"; 
-        },
-        	 1000);
-        }
-        else {
+    	if(screenInput.value != ""){
         	screenInput.value = screenInput.value.slice(0, -1);
         }
     }
