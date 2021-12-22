@@ -17,8 +17,8 @@ body{
 }
 .screen{
  width: 100%;
- font-size: 7rem;
- padding: 0.5rem;
+ font-size: 4rem;
+ padding: 5px 0 5px 10px;
  background: rgb(41,41,56);
  color: white;
  border:none;
@@ -60,13 +60,4 @@ button:hover{
 }
 .btn-clear:hover{
 	background:blue;
-}
-#alert{
-	background: red;
-	color:white;
-	margin-bottom:20px;
-	padding:7px;
-	box-sizing: border-box;
-	border:none;
-	border-radius:20px;
 }
