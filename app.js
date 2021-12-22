@@ -18,23 +18,12 @@
       }
 
     clearBtn.addEventListener("click", function (event) {
-        if(screenInput.value == ""){
-        	alert.style.display = "block";
-        	setTimeout(function(){alert.style.display = "none"; 
-        },
-        	 1000);
-        } else {
+        if(screenInput.value != ""){
         	screenInput.value = "";
         }
     });
 
     equalBtn.addEventListener("click", function (event) {
-        if(screenInput.value == ""){
-        	alert.style.display = "block";
-        	setTimeout(function(){alert.style.display = "none"; 
-        },
-        	 1000);
-        } else {
             screenInput.value = eval(screenInput.value);
         }
     });
