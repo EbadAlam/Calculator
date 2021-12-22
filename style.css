@@ -47,7 +47,8 @@ button:hover{
  background: rgb(224,224,224);
 }
 .btn,.btn-equal,.btn-clear{
- font-size: 4rem;
+ font-size: 2rem;
+	height:65px;
 }
 .btn-equal{
  background: green;
