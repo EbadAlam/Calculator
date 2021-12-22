@@ -10,7 +10,6 @@
         btnAll.forEach(function (singleBtn) {
           singleBtn.addEventListener("click", function (event) {
             const currentNumber = event.target.dataset.num;
-           
             screenInput.value += currentNumber;
             event.preventDefault();
           });
@@ -25,7 +24,6 @@
 
     equalBtn.addEventListener("click", function (event) {
             screenInput.value = eval(screenInput.value);
-        }
     });
     removeBtn.onclick = () => {
     	if(screenInput.value != ""){
